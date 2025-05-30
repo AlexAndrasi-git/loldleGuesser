@@ -18,4 +18,4 @@ def setup_browser():
 
 def test_guess_the_correct_lol_champion(setup_browser):
     setup_browser.test_open_loldle_and_change_language_if_needed()
-    setup_browser.test_guess_the_correct_lol_champion("Ashe")
+    setup_browser.guess_until_guessing_is_successful()
